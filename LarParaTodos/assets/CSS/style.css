@@ -3,10 +3,17 @@ Estilos da páginas index.html*/
 
 .center{
     text-align: center;
+    
 }
 
-.justify{
-    text-align: justify;
+.titulo{
+    text-align: center;
+}
+
+.body{
+    background: rgb(red, green, blue);
+    background: linear-gradient(80deg, rgba(102, 4, 4, 0.884) 35%, rgba(29, 123, 185, 0.87) 90%);
+    justify-content: center;
 }
 
 .container{
@@ -14,6 +21,8 @@ Estilos da páginas index.html*/
     flex-flow: row;
     justify-content: center;
     align-items: center;
+    font-weight: 100;
+    
 }
 
 #menu li{
@@ -29,6 +38,8 @@ Estilos da páginas index.html*/
 
 #menu li a:hover{
     color: grey;
+   
+    
 }
 
 .p-30{
@@ -36,7 +47,7 @@ Estilos da páginas index.html*/
 }
 
 .br-50{
-    border-radius: 50%;
+    border-radius: 10%;
 }
 .wh{
     width: 400px;
